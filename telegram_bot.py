@@ -108,6 +108,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 /start - начать работу
 /help - показать справку
 /echo - эхо-сообщение
+
     """
     await update.message.reply_text(help_text)
 
