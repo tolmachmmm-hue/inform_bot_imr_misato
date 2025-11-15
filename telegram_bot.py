@@ -17,7 +17,6 @@ url_sheet = "https://sheets.googleapis.com"
 API_key = "AIzaSyA4pouqwMbU7WT_w0YVjoLN8XmoJeNmI8U"
 paramkey = "?key="+API_key
 
-
 def check_time_intervals(data_array):
     """Проверяет пересечение текущего времени с интервалами в данных"""
 
